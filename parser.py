@@ -6,8 +6,8 @@ from urllib.parse import urljoin
 import time
 
 
-api_key = "AIzaSyB-J7itM9J3jXNhtUvAysyQZJNpOzSMAeQ"
-search_engine_id = "65b0a43fe76844e95"
+api_key = "[GOOGLE API KEY]"
+search_engine_id = "[GOOGLE SEARCH ENGINE ID]"
 
 def search_for_website(company_name):
 	search_url = "https://www.googleapis.com/customsearch/v1"
@@ -96,11 +96,4 @@ for name in site_names:
 	print(name)
 	print(website)
 	print(contacts)
-
-# website = "https://vivibubbletea.com/"
-# email = find_contact_methods(website)
-# print(website)
-# print(email)
-
-
 
